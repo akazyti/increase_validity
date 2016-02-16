@@ -12,7 +12,7 @@ frappe.ui.form.on('Quotation', {
                     freeze: false,
                 })
                 
-                frappe.show_alert("Validity Increase")
+                frappe.show_alert("Validity Increased")
                 frm.reload_doc()
             })
         }
