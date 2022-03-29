@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include increase_validity *.css
+recursive-include increase_validity *.csv
+recursive-include increase_validity *.html
+recursive-include increase_validity *.ico
+recursive-include increase_validity *.js
+recursive-include increase_validity *.json
+recursive-include increase_validity *.md
+recursive-include increase_validity *.png
+recursive-include increase_validity *.py
+recursive-include increase_validity *.svg
+recursive-include increase_validity *.txt
+recursive-exclude increase_validity *.pyc
